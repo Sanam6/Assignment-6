@@ -3,7 +3,7 @@ using namespace std;
 int prime(int a,int b){
     bool flag;
     cout<<"Prime numbers between "<<a <<" and "<<b<<" are: "<<endl;
-    if(a>2){
+    if(a<2){
         a=2;
     }
     for(int i=a;i<=b;i++){
